@@ -1,0 +1,271 @@
+
+*{
+  padding:0;
+  margin:0;
+}
+
+
+
+:root{
+  --mainFont:"Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;;
+  --primary:#F02B80;
+  --muted:#8A8FB9;
+  --dark-x:#151875;
+  --dark:#4853C2;
+  --grey:#F2F4F8;
+
+  --paragraph:1rem;
+  --h1:2.163rem;
+  --medium:900;
+  --h3:2.163rem;
+
+  
+}
+
+body{
+  font-family: var(--mainFont);
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing:antialised;
+  -moz-osx-font-smoothing:grayscale;
+  background-color: #EBEBEB;
+}
+
+/*Navbar*/
+.navbar{
+  min-height:6rem;
+}
+
+.text-dark{
+  color: var(--dark-x)!important;
+}
+
+
+/*Botones*/
+
+.btn-sm{
+  padding: .625rem 1.25rem;
+}
+
+
+.btn-primary{
+  background-color: var(--primary)!important;
+  border-color:var(--primary)!important;
+  padding:1rem;
+  border-radius:0;
+  position:relative;
+  overflow: hidden;
+  
+}
+.btn-primary:hover{
+  background-color: #f84db1!important;
+  border-color:#f84db1!important;
+  padding:1rem;
+  border-radius:0;
+
+  
+}
+
+.btn-outline-primary{
+ border-color: var(--primary)!important;
+ color: var(--primary)!important;
+ padding:1rem;
+ border-radius:0;
+
+}
+.btn-outline-primary:hover{
+  background-color:#faebf4;
+ border-color: #f5a2d2;
+ color:#690740;
+ padding:1rem;
+ border-radius:0;
+
+ 
+}
+
+
+/*Input search*/
+.form-control{
+  border: 1px solid var(--muted) !important;
+}
+
+
+
+/*Body*/
+
+/*Hero*/
+.bg-dark{
+  background-color: var(--dark)!important;
+}
+.card-1{
+  background: linear-gradient(279deg, rgba(182,84,239,0.9752275910364145) 0%, rgba(84,101,255,0.8911939775910365) 63%);
+}
+.card-2{
+  background:linear-gradient(279deg, rgba(93,141,255,1) 0%, rgba(78,90,255,1) 63%);
+}
+
+
+section{
+  padding:3.125rem;
+
+}
+
+/*Card horizontales*/
+.text-primary{
+  color: var(--primary)!important;
+}
+
+.text-dark{
+  color: var(--dark-x)!important;
+}
+
+.text-muted{
+  color: var(--muted)!important;
+}
+
+@media screen and (max-width: 765px){
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+  .col-sm-5 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 963px){
+  
+  .container{
+    height:0 1200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Eliminar focus de los botones y los inputs*/
+
+.btn:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+
+input:focus, select:focus, select, input.form-control:focus {
+
+  outline:none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
